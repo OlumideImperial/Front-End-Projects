@@ -1,0 +1,72 @@
+
+/* Slider CSS */
+.banner{
+    width: 500%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-iteration-count: infinte;
+    overflow: hidden;
+}
+
+  @keyframes slider {
+
+    20%{
+        margin-left: -100%;
+    }
+
+    40%{
+        margin-left: -200%;
+    }
+
+    60%{
+        margin-left: -300%;
+    }
+
+    80%{
+        margin-left: -400%;
+    }
+
+    100%{
+      
+    }
+
+
+  }
+
+.banner1{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+
+.banner2{
+    width: 100%;
+    height: 300px;
+    background-color:blue;
+}
+
+.banner3{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+
+.banner4{
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+}
+
+.banner5{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+
+
